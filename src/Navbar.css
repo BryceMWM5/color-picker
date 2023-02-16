@@ -1,0 +1,49 @@
+.Navbar {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    height: 6vh;
+}
+
+.logo {
+    margin-right: 15px;
+    padding: 0 13px;
+    font-size: 22px;
+    background: #eceff1;
+    font-family: Roboto;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.logo a {
+    text-decoration: none;
+    color: black;
+}
+
+.slider {
+    width: 350px;
+    margin: 0 10px;
+    display: inline-block;
+}
+
+.select-container {
+    margin-left: auto;
+    margin-right: 1rem;
+}
+
+@media (max-width: 1199.98px) {}
+
+@media (max-width: 991.98px) {}
+
+@media (max-width: 767.98px) {
+    .slider {
+        width: 200px;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .logo {
+        display: none;
+    }
+}
